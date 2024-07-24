@@ -1,0 +1,37 @@
+nav {
+    border-bottom: 1px solid black;
+}
+
+/* Created border to divide the navigation bar from the Main Header */
+
+.navitem {
+    display: inline-block
+}
+
+.navitem a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+h1 {
+    background-color: #023047;
+    color: #8ecae6;
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #023047;
+    color: #8ecae6;
+}
